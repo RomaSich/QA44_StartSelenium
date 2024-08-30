@@ -3,7 +3,7 @@ package practice;
 public class Exeptions {
     public static void main(String[] args) {
 //method1();
-        uncheckbaleExeption(2, 0);
+        uncheckbaleExeption(1, 0);
         System.out.println("=================");
         try {
             first();
