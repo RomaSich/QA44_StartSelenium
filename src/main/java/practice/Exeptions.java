@@ -3,7 +3,7 @@ package practice;
 public class Exeptions {
     public static void main(String[] args) {
 //method1();
-        uncheckbaleExeption(1, 0);
+       uncheckbaleExeption(2, 0);
         System.out.println("=================");
         try {
             first();
@@ -34,7 +34,7 @@ public class Exeptions {
         try {
             res = a/b;
         }
-        catch (ArithmeticException)
+        catch (ArithmeticException exception)
         {
             res = 0;
             System.out.println("create exception");
