@@ -3,7 +3,7 @@ package practice;
 public class Exceptions {
     public static void main(String[] args) {
 //method1();
-       uncheckbaleExeption(2, 0);
+       uncheckableException(2, 0);
         System.out.println("=================");
         try {
             first();
@@ -28,7 +28,7 @@ public class Exceptions {
             System.out.println("==================");
         }
     }
-    public static void uncheckbaleException(int a, int b)
+    public static void uncheckableException(int a, int b)
     {
         int res;
         try {
