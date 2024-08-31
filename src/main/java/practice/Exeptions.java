@@ -1,6 +1,6 @@
 package practice;
 
-public class Exeptions {
+public class Exceptions {
     public static void main(String[] args) {
 //method1();
        uncheckbaleExeption(2, 0);
@@ -28,7 +28,7 @@ public class Exeptions {
             System.out.println("==================");
         }
     }
-    public static void uncheckbaleExeption(int a, int b)
+    public static void uncheckbaleException(int a, int b)
     {
         int res;
         try {
